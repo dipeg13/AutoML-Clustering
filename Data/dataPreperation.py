@@ -61,12 +61,3 @@ fileList = np.asarray(fileList)
 fileList = pd.DataFrame(fileList, columns=['Original Datasets', 'Transformed Datasets'])
         
 fileList.to_csv('MetaDataNames', sep=',')
-
-
-
-
-
-
-
-        
-
