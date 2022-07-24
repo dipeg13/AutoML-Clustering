@@ -1,38 +1,3 @@
-#import sklearn.metrics.silhouette_score as silhouette
-#Dunn
-#C-Index
-#import sklearn.metrics.calinski_harabasz_score as Calinski_Harabasz
-#import sklearn.metrics.davies_bouldin_score as Davies_Bouldin
-#SDbw
-#CDBW
-#Tau
-#Ratkowsky Lance
-#McClain Rao
-"""
-import sklearn.cluster.AffinityPropagation as affinity
-import sklearn.cluster.AgglomerativeClustering as agglomerative
-import sklearn.cluster.Birch as birch
-import sklearn.cluster.DBSCAN as dbscan
-import sklearn.cluster.KMeans as kmeans
-import sklearn.cluster.MeanShift as meanshift
-import sklearn.cluster.OPTICS as optics
-import sklearn.cluster.SpectralClustering as spectral
-
-searchSpace = {'affinity' : {'damping': [i * 0.1 for i in range(5,0)]},
-               'agglomerative' : {'n_clusters' : [i for i in range(2, 31)],
-                                  'affinity' : ['euclidean', 'l', 'l2', 'manhattan', 'cosine']},
-               'birch' : {'threshold' : [i * 0.1 for i in range(2,8)],
-                          'n_clusters': [i for i in range(2, 31)]},
-               'dbscan' : {'eps' : [i * 0.1 for i in range(1,8)],
-                           'mean_samples' : [i for i in range(3,8)]},
-               'kmeans' : {'n_clusters' : [i for i in range(2,31)]},
-               'meanshift' : {'bandwidth' : None},
-               'optics' : {'min_samples' : [i for i in range(3,8)],
-                           'cluster_method' : ['xi', 'dbscan']},
-               'spectral' : {'n_clusters' : [i for i in range(2,31)],
-                             'gamma' : [i*0.1 for i in range(5,15)]}}
-
-"""
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import skew
@@ -87,7 +52,7 @@ def clusterization(data, labels):
     for i in range(data.shape[0]):
         clusters[labels[i]].append(data[i,:])
     return clusters
-
+"""
 def silhouette(clusters):
     #https://en.wikipedia.org/wiki/Silhouette_(clustering)
     def a(dp, label):
@@ -167,7 +132,7 @@ def DaviesBouldin(clusters):
     return summ / len(cl_labels)
 
 
-    
+ """   
 
 from sklearn.cluster import KMeans
 
