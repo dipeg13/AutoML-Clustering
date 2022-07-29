@@ -98,9 +98,9 @@
 96,heart-statlog.csv,dataset 97
 97,heart-switzerland.csv,dataset 98
 98,heart-va.csv,dataset 99
-99,hepatitis.csv,dataset 100
-100,hill-valley.csv,dataset 101
-101,horse-colic.csv,dataset 102
+99,DONE-hepatitis.csv,dataset 100
+100,DONE-hill-valley.csv (4 datasets),dataset 101
+101,DONE-horse-colic.csv,dataset 102
 102,image-segmentation.csv,dataset 103
 103,Immunotherapy.csv,dataset 104
 104,indian-liver-patients.csv,dataset 105
@@ -112,16 +112,16 @@
 110,kc3.csv,dataset 111
 111,knuggetChase3.csv,dataset 112
 112,leaf.csv,dataset 113
-113,led7digit.csv,dataset 114
-114,lenses.csv,dataset 115
+113,DONE-led7digit.csv,dataset 114
+114,DONE-lenses.csv,dataset 115
 115,libras.csv,dataset 116
-116,liion_batteries.csv,dataset 117
+116,DONE-liion_batteries.csv,dataset 117
 117,liver-disorders.csv,dataset 118
 118,lowbwt.csv,dataset 119
 119,lungcancer_GSE31210.csv,dataset 120
 120,lupus.csv,dataset 121
-121,lymphography.csv,dataset 122
-122,machine_cpu.csv,dataset 123
+121,DONE-lymphography.csv,dataset 122
+122,DONE-machine_cpu.csv,dataset 123
 123,Mall_Customers.csv,dataset 124
 124,marketing_campaign.csv,dataset 125
 125,mc2.csv,dataset 126
